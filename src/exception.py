@@ -6,6 +6,7 @@ allowing interaction with the Python runtime environment
 and the underlying operating system.
 '''
 import logging
+from src.logger import logging
 
 def error_message_detail(error,error_detail:sys):
     _,_,exc_tb=error_detail.exc_info() ## the info tells about
